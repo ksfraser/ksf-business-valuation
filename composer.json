@@ -1,5 +1,5 @@
 {
-    "name": "ksfraser/ksf-business_valuation",
+    "name": "ksfraser/ksf-business-valuation",
     "description": "Business Valuation calculation engines (Ksfraser\\BusinessValuation).",
     "type": "library",
     "license": "proprietary",
