@@ -7,6 +7,13 @@ namespace Ksfraser\BusinessValuation\Tests;
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\MockObject\MockObject;
 use Psr\Log\LoggerInterface;
+use Ksfraser\BusinessValuation\OverheadExpenseCalculator;
+use Ksfraser\BusinessValuation\BusinessValuationEngine;
+use Ksfraser\BusinessValuation\BuySellAgreementAnalyzer;
+use Ksfraser\BusinessValuation\SuccessionPlanningEngine;
+use Ksfraser\ModulesCommon\ParameterDefinition;
+use Ksfraser\ModulesCommon\CalculationResult;
+use Ksfraser\ModulesCommon\CalculationContext;
 
 /**
  * Business Valuation Engine Test Suite
